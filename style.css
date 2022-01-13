@@ -1,29 +1,86 @@
-ul {
+/* 
+Color and font styles
+
+dark background color (hero and footer): #1F2937
+
+Hero main text ("this website is awesome"): 48px extra-bold #f9faf8
+
+Hero secondary text, Header Link Text: 18px #E5E7EB
+
+Header Logo Text: 24px #F9FAF8
+
+Button color, call to action background color: #3882F6
+
+information header text: 36px extra-bold #1F2937
+
+Quote section background color: #E5E7EB
+
+Quote text: 36px light italic #1F2937
+*/
+
+/* setting background colors for each section (5), removing ul dots, button bg color */
+.section-01 {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+}
+
+.footer {
+  background-color: #1F2937;
+}
+  
+.section-03 {
+  background-color: #E5E7EB;
+}
+
+.ul {
   list-style-type: none;
 }
 
-.section-01 {
-  border: 5px solid rgb(255, 0, 221);
-  display: flex;
+.section-04-subsection {
+  background-color: blue;
 }
 
+button {
+  background-color: blue;
+  color: #f9faf8;
+}
 
+/* section-01 */
 .header-logo {
-  display: flex;
-  justify-content: flex-start;
+  flex: 1;
+  align-items: sle
+  color: #f9faf8;
+  font-size: 24px;
+  justify-content: space-around;
+  
 }
 
-.right-header-links {
-  display: flex;
-  gap: 15px;
-  margin-top: -15px;
+.section-01-text-01 {
+  color: #f9faf8;
+  font-weight: extra-bold;
+  font-size: 48px;
 }
 
-.section-01 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.section-01-text-02 {
+  color: #E5E7EB;
+  font-size: 18px;
 }
 
+.section-01-text-03 {
+  background-color: gray;
+  color: #f9faf8;
+}
 
+.header-links {
+  font-size: 18px;
+  color: #E5E7EB;
+  order: 5;
+  
 
+.section-01-column {
+  display: flex;
+  flex-direction: 
+}
