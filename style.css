@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+}
+
+.section-01 {
+  border: 5px solid rgb(255, 0, 221);
+  display: flex;
+}
+
+
+.header-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-header-links {
+  display: flex;
+  gap: 15px;
+  margin-top: -15px;
+}
+
+.section-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
