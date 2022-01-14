@@ -24,9 +24,10 @@ Quote text: 36px light italic #1F2937
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-   margin: -10px;
-   padding: 100px;
+  margin: -10px;
+  padding: 70px;
 }
+
 
 .footer {
   background-color: #1F2937;
@@ -42,8 +43,8 @@ Quote text: 36px light italic #1F2937
   gap: 30px;
   align-self: flex-start;
   margin-bottom: 70px;
-  margin-top: -80px;
-  padding-top: -30px;
+  margin-top: 0px;
+  padding-top: -50px;
 }
 
 .section-04-subsection {
@@ -64,9 +65,8 @@ p {
 .header-logo {
   color: #f9faf8;
   font-size: 24px;
-  justify-content: space-around;
   margin-bottom: 100px;
-  margin-top: -110px;
+  margin-top: -120px;
   
 }
 
@@ -74,12 +74,8 @@ p {
   color: #f9faf8;
   font-weight: extra-bold;
   font-size: 48px;
-  margin-top: -20px;
+  margin-top: -50px;
 
-}
-
-.section-01-text-02-column {
-  margin-top: 10px;
 }
 
 .section-01-text-02 {
@@ -91,7 +87,7 @@ p {
 .section-01-text-03 {
   background-color: gray;
   color: #f9faf8;
-  padding: 100px;
+  padding: 80px;
 }
 
 .header-links {
@@ -104,4 +100,99 @@ p {
 .button1 {
   margin-top: 10px;
 }
+
+/* section-02 */
+
+.section-02-title {
+  color: #1F2937;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.section-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
+}
+
+.section-02-text-01-column {
+  display: flex;
+  gap: 60px;
+  padding: 20px;
+  margin-top: 250px;
+  justify-content: center;
+}
+
+
+/* section-03 */
+
+.section-03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  flex-direction: column;
+}
+
+.section-03-text-01 {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: 300;
+  
+}
+
+.section-03-text-02 {
+  margin-right: -500px;
+  font-weight: bold;
+}
+
+.p3 {
+  margin-bottom: -35px;
+}
+
+/* section-04 */
+
+.section-04 {
+  padding: 100px;
+}
+.section-04-subsection {
+  border-radius: 15px;
+  padding: 50px;
+  display: flex;
+}
+
+.section-04-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-04-text-01 {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.section-04-text-02 {
+  color: #f9faf8;
+}
+
+.button2 {
+  margin-left: 300px;
+  width: 150px;
+  border-color: white;
+}
+
+/* footer */
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  color: #f9faf8;
+}
+
+
+
 
