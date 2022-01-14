@@ -18,13 +18,14 @@ Quote section background color: #E5E7EB
 Quote text: 36px light italic #1F2937
 */
 
-/* setting background colors for each section (5), removing ul dots, button bg color */
+/* setting background colors for each section (5), ul (section 1) changes, button bg color */
 .section-01 {
   background-color: #1F2937;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 100px;
+   margin: -10px;
+   padding: 100px;
 }
 
 .footer {
@@ -37,24 +38,35 @@ Quote text: 36px light italic #1F2937
 
 .ul {
   list-style-type: none;
+  display: flex;
+  gap: 30px;
+  align-self: flex-start;
+  margin-bottom: 70px;
+  margin-top: -80px;
+  padding-top: -30px;
 }
 
 .section-04-subsection {
-  background-color: blue;
+  background-color: #3882F6;
 }
 
 button {
-  background-color: blue;
+  background-color: #3882F6;
   color: #f9faf8;
+  border-radius: 5px;
+}
+
+p {
+  margin-bottom: -20px; /* between paragraphs */
 }
 
 /* section-01 */
 .header-logo {
-  flex: 1;
-  align-items: sle
   color: #f9faf8;
   font-size: 24px;
   justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: -110px;
   
 }
 
@@ -62,25 +74,34 @@ button {
   color: #f9faf8;
   font-weight: extra-bold;
   font-size: 48px;
+  margin-top: -20px;
+
+}
+
+.section-01-text-02-column {
+  margin-top: 10px;
 }
 
 .section-01-text-02 {
   color: #E5E7EB;
   font-size: 18px;
+  margin-top: -15px;
 }
 
 .section-01-text-03 {
   background-color: gray;
   color: #f9faf8;
+  padding: 100px;
 }
 
 .header-links {
   font-size: 18px;
   color: #E5E7EB;
-  order: 5;
-  
-
-.section-01-column {
   display: flex;
-  flex-direction: 
+  flex-direction: row;
+}   
+
+.button1 {
+  margin-top: 10px;
 }
+
